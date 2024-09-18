@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header, section, footer {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    color: #34495e;
+    font-size: 1.8em;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+}
+
+p, ul, li {
+    color: #555;
+    font-size: 1.1em;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #8d71f1;
+    color: white;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    font-size: 1.1em;
+}
+
+
+a {
+    color: #a726ac;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b200e9;
+}
+
+
+footer a {
+    margin-right: 15px;
+    color: #45007e;
+}
+
+footer a:hover {
+    color: #613685;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 15px;
+    }
+}
+
+
+a:hover {
+    color: #685391;
+    transition: color 0.3s;
+}
+
+img {
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #8b14ec;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #7739eb;
+}
+
+
